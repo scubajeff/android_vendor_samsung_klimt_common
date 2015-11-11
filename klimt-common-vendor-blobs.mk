@@ -14,8 +14,8 @@
 
 #WiFi - Firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/chagallwifi/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/chagallwifi/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt
+    vendor/samsung/klimt-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
+    vendor/samsung/klimt-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
 
 #Camera
 PRODUCT_COPY_FILES += \

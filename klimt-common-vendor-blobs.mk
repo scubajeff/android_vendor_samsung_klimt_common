@@ -12,11 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#WiFi - Firmware
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klimt-common/proprietary/etc/wifi/nvram_mfg.txt:system/etc/wifi/nvram_mfg.txt \
-    vendor/samsung/klimt-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt
-
 #Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so

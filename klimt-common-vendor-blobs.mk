@@ -12,6 +12,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Bluetooth firmware
+PRODUCT_COPY_FILES += \
+    vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350.hcd:system/vendor/firmware/bcm4350.hcd \
+    vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350_murata.hcd:system/vendor/firmware/bcm4350_murata.hcd \
+    vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350_semco.hcd:system/vendor/firmware/bcm4350_semco.hcd \
+    vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350_semcosh.hcd:system/vendor/firmware/bcm4350_semcosh.hcd \
+    vendor/samsung/klimt-common/proprietary/vendor/firmware/bcm4350_semcove.hcd:system/vendor/firmware/bcm4350_semcove.hcd
+
 #Camera
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so

@@ -26,11 +26,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin
 
 #DRMServer called through service_redefine drm
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/bin/drmserver:system/bin/drmserver.samsung
 
 #Stagefright
-PRODUCT_COPY_FILES += \
+#PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so
 
 #NXP Sound effect

@@ -21,10 +21,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so
 
-#Camera - arcsoft
-PRODUCT_COPY_FILES += \
-    vendor/samsung/klimt-common/proprietary/lib/libarcsoft_flawlessface2.so:system/lib/libarcsoft_flawlessface2.so
-
 #Samsung Exynos5 SoC series FIMC-IS driver firmware
 PRODUCT_COPY_FILES += \
     vendor/samsung/klimt-common/proprietary/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin:system/vendor/firmware/fimc_is_fw2_IMX134_EEPROM.bin
